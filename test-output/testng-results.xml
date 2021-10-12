@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4022" started-at="2021-10-11T04:13:04Z" finished-at="2021-10-11T04:13:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4022" started-at="2021-10-11T04:13:04Z" finished-at="2021-10-11T04:13:08Z">
+      <class name="day2.NegativeContactListTest">
+        <test-method status="PASS" signature="addingContactBigSize()[pri:0, instance:day2.NegativeContactListTest@1fe20588]" name="addingContactBigSize" duration-ms="2641" started-at="2021-10-11T04:13:04Z" description="adding contact with too many character" finished-at="2021-10-11T04:13:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingContactBigSize -->
+        <test-method status="PASS" signature="addingContactMissing()[pri:0, instance:day2.NegativeContactListTest@1fe20588]" name="addingContactMissing" duration-ms="435" started-at="2021-10-11T04:13:06Z" description="adding contact with missing details" finished-at="2021-10-11T04:13:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingContactMissing -->
+        <test-method status="PASS" signature="invalidEmail()[pri:0, instance:day2.NegativeContactListTest@1fe20588]" name="invalidEmail" duration-ms="443" started-at="2021-10-11T04:13:07Z" description="Adding Contact with missing @ in email" finished-at="2021-10-11T04:13:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="invalidFirstName()[pri:0, instance:day2.NegativeContactListTest@1fe20588]" name="invalidFirstName" duration-ms="475" started-at="2021-10-11T04:13:07Z" description="Adding Contact with Numbers in First Name" finished-at="2021-10-11T04:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidFirstName -->
+      </class> <!-- day2.NegativeContactListTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
